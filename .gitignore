@@ -1,0 +1,13 @@
+# Exclude sensitive project directories
+projects/spotless-improved/
+projects/spotless-imputed/
+
+# Common ignore patterns
+node_modules/
+.env
+.env.local
+*.log
+.DS_Store
+
+# Problematic files
+nul
