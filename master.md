@@ -35,8 +35,46 @@ D:\Kilo Code\
 ├── debug/          # Troubleshooting, error analysis
 ├── knowledge/      # Learning, research, documentation
 ├── projects/       # Project workflows, management
+│   └── spotless-improved/  # Spotless App Project
+│       ├── README.md       # → START HERE for Spotless project
+│       └── [project files]
 └── general/        # Miscellaneous tasks
 ```
+
+## 🚨 SPOTLESS PROJECT RULE
+
+**When working on Spotless App (`D:\Kilo Code\projects\spotless-improved`):**
+
+1. **CRITICAL:** Follow documentation on LOCAL PC, not on server!
+   - MD files are in git for version control
+   - Server gets them via git pull (harmless text files)
+   - But YOU follow checklists on YOUR LOCAL PC to make changes
+   - Server only RUNS: code and build files
+
+2. **ALWAYS START** with `projects/spotless-improved/README.md`
+
+3. **USE CHECKLISTS** for all deployment tasks:
+   - Backend changes → [BACKEND-CHECKLIST.md](./projects/spotless-improved/BACKEND-CHECKLIST.md)
+   - Frontend changes → [FRONTEND-CHECKLIST.md](./projects/spotless-improved/FRONTEND-CHECKLIST.md)
+   - Mobile changes → [MOBILE-CHECKLIST.md](./projects/spotless-improved/MOBILE-CHECKLIST.md)
+
+4. **BEFORE mobile changes:** MUST read VERSION-INCREMENT-REMINDER.md (version must increment for EVERY build)
+
+5. **NEVER BE CONFUSED:** If we've done it before, the process is documented in the checklist
+
+6. **UPDATE** all relevant documentation after changes (locally only)
+
+**Navigation:** `D:\Kilo Code\projects\spotless-improved\README.md` → Choose checklist by component
+
+**Core Documentation Files:**
+- **README.md** - Navigation hub with quick links by task
+- **BACKEND-CHECKLIST.md** - Complete backend deployment workflow
+- **FRONTEND-CHECKLIST.md** - Complete frontend deployment workflow
+- **MOBILE-CHECKLIST.md** - Complete mobile build/deploy workflow
+- **VERSION-INCREMENT-REMINDER.md** - CRITICAL for mobile (always increment version)
+- **VERSION-TRACKING.md** - Mobile version history
+- **MASTER-DOCUMENTATION.md** - Complete system architecture
+- **state-current.md** - Current project state and active issues
 
 ## CONTINUOUS UPDATE PROTOCOL
 1. After completing any task, update relevant guide files
